@@ -1,0 +1,46 @@
+
+#map {
+  height: 100%;
+}
+
+#title{
+margin:2px;
+}
+
+#greet{
+margin:0.5em;
+}
+
+html,body {
+  background-color: lightgray;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+h2,h3{
+  margin:0.5em;
+}
+
+#controls{
+  align-items: center;
+  display:flex;
+  margin:5px;
+  justify-content: space-between;
+}
+
+#controls div{
+  width:50%;
+  display:flex;
+}
+
+#newGame, #submit{
+  margin:0.1em;
+  width:50%;
+}
+#desc{
+  margin-right: 1em;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt00qV-2ESQdL7C5f2qQvI8JWv0MGaRGM&callback=initMap&libraries=geometry&v=weekly"
+    defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script src="./places.js"></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+      <h1 id="title">Hello and welcome</h1>
+      <p id="greet">This is a google maps game. Try your best!</p>
+    <div id="map"></div>
+    <div id='controls'>
+     
+      <div id='scores'>
+        <button id='submit' >Submit</button>
+        <button id='newGame' >New target</button>
+        <span >Last score:<em id='lastScore'>0</em> </span>
+        <span >Total score:<em id='totalScore'>0</em> </span>
+      </div>
+      
+        <h2> Current target:<em id='target'>none</em></h2>
+        <h3> Category:<em id='desc'>?</em></h3>
+      </div>
+    </div>
+  </body>
+  </html>
